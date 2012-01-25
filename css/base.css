@@ -48,9 +48,6 @@ body, button, input, select, textarea { font-family: sans-serif; color: #222; }
    Links
    ========================================================================== */
 
-a { color: #00e; }
-a:visited { color: #551a8b; }
-a:focus { outline: thin dotted; }
 
 /* Improve readability when focused and hovered in all browsers: people.opera.com/patrickl/experiments/keyboard/test */
 a:hover, a:active { outline: 0; }
@@ -207,9 +204,6 @@ table { border-collapse: collapse; border-spacing: 0; }
 
 
 
-::-moz-selection { background: #f16529; color: #fff; text-shadow: none; }
-::selection      { background: #f16529; color: #fff; text-shadow: none; }
-
 
 /* ===============
     ALL: IE Fixes
@@ -248,7 +242,6 @@ table { border-collapse: collapse; border-spacing: 0; }
 .clearfix { zoom: 1; }
 
 
-/* ==|== media queries ====================================================== */
 
 
 

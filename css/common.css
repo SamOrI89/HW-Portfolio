@@ -15,14 +15,30 @@ body{ font:16px/26px Helvetica, Helvetica Neue, Arial; }
     ALL: Orange Theme
    =================== */
 
-#header-container{ border-bottom: 20px solid #e44d26; }
-#footer-container{ border-top:    20px solid #e44d26; }
-#main aside      { border-top:    20px solid #e44d26; }
+#header-container{ border-bottom: 20px solid #003399; }
+#footer-container{ border-top:    20px solid #003399; }
+#main aside      { border-top:    20px solid #003399;
+}
 
 #header-container,
 #footer-container,
 #main aside{
-	background:#f16529;
+	background:#993333;
+}
+
+nav ul li a{
+	background: #003399;
 }
 
 #title{ color:white; }
+
+::-moz-selection { background: #993333; color: #fff; text-shadow: none; }
+::selection      { background: #993333; color: #fff; text-shadow: none; }
+
+/* =============================================================================
+   Links
+   ========================================================================== */
+
+a { color: #00e; }
+a:visited { color: #551a8b; }
+a:focus { outline: thin dotted; }
