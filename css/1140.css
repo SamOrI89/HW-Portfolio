@@ -1,4 +1,3 @@
-@media only screen and (min-width: 1140px) {
 
 /* ===============
     Maximal Width
@@ -8,4 +7,30 @@
 		width:1026px; /* 1140px - 10% for margins */
 		margin:0 auto;
 	}
-}
+
+	#title{
+		float:left;
+	}
+
+	nav{
+		float:right;
+		width:27%;
+	}
+
+
+	#main article{
+		float:left;
+		width:57%;
+	}
+		
+	#main aside{
+		float:right;
+		width:38%;
+	}
+	
+	nav ul li{
+		display:inline;
+	}	
+	.oldie nav a{
+		margin:0 0.7%;		
+	}
