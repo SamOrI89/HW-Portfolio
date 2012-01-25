@@ -22,8 +22,13 @@ body{ font:16px/26px Helvetica, Helvetica Neue, Arial; }
 
 #header-container,
 #footer-container,
-#main aside{
+#main aside,
+footer.wrapper{
 	background:#993333;
+}
+
+nav{
+	background: #993333;
 }
 
 nav ul li a{
@@ -34,6 +39,7 @@ nav ul li a{
 
 ::-moz-selection { background: #993333; color: #fff; text-shadow: none; }
 ::selection      { background: #993333; color: #fff; text-shadow: none; }
+
 
 /* =============================================================================
    Links

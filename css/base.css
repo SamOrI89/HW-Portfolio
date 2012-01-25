@@ -11,6 +11,7 @@
    ========================================================================== */
 
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section { display: block; }
+
 audio[controls], canvas, video { display: inline-block; *display: inline; *zoom: 1; }
 
 
@@ -263,4 +264,31 @@ table { border-collapse: collapse; border-spacing: 0; }
   @page { margin: 0.5cm; }
   p, h2, h3 { orphans: 3; widows: 3; }
   h2, h3{ page-break-after: avoid; }
+}
+
+
+#main nav aside{
+	float: left;
+	width: 100%;
+}
+
+#main nav aside p{
+	position: relative;
+	left: 12%;
+	width: 80%;
+}
+
+#main nav aside img{
+	position: relative;
+	left: 12%;
+}
+
+#main nav ul li{
+		display: block;
+		position: relative;
+		left: 12%;
+}
+
+footer nav ul{
+	float: top;
 }
