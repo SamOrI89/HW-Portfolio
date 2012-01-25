@@ -44,3 +44,10 @@
 	.oldie nav a{
 		margin:0 0.7%;		
 	}
+
+#main nav aside{
+	float: left;
+	width: 100%;
+	font-size: 100%;
+	background: #993333;
+}

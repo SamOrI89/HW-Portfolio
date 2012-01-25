@@ -23,3 +23,9 @@
 	.oldie nav a{
 		margin:0 0.7%;		
 	}
+
+#main nav aside{
+	width: 100%;
+	font-size: 0px;
+	background: white;
+}

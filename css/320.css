@@ -44,3 +44,9 @@ nav a:hover{
 	color:white;
 	padding:20px 0;
 }
+
+#main nav aside{
+	width: -20%;
+	font-size: 0px;
+	background: white;
+}
